@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Miguel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1f1f1f;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #6a11cb;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #6a11cb;
+            border-bottom: 2px solid #2575fc;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #2a2a2a;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        li:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #121212;
+            color: #777;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .btn-contato {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #6a11cb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+        .btn-contato:hover {
+            background: #2575fc;
+        }
+        img.logo {
+            width: 80px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div align="center">
+            <img src="imagens/logo.png" alt="Logo da Irmandade" class="logo">
+        </div>
+        <h1>Aqui esta o meu portifólio</h1>
+        <p>Transformando ideias em soluções criativas e impactantes</p>
+    </header>
+    
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou alguém que curte aprender e transformar ideias em coisas reais. Gosto de tecnologia, design e tudo que me desafia a criar algo novo. Estou sempre buscando evoluir, descobrir jeitos diferentes de fazer as coisas e melhorar minhas habilidades. Não quero só fazer parte de um time, quero agregar de verdade e mostrar que posso fazer a diferença.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos em Destaque</h2>
+            <ul>
+                <li><strong>Website Corporativo:</strong> Criação de um site moderno e responsivo para uma empresa de tecnologia, focado em UX/UI.</li>
+                <li><strong>Identidade Visual:</strong> Desenvolvimento de logotipos e materiais gráficos que refletem a essência de diferentes marcas.</li>
+                <li><strong>Sistema de Automação:</strong> Projeto de automação eficiente usando JavaScript para otimizar processos internos.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Fique à vontade para me enviar uma mensagem e saber mais sobre meu trabalho.</p>
+            <a href="mailto:miguedu333666@gmail.com" class="btn-contato">Enviar E-mail</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Miguel A. T. Andrade</p>
+    </footer>
+</body>
+</html>
